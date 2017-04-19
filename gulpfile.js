@@ -18,9 +18,7 @@ gulp.task('default',['copyfile'],function(){
         'stores/ListStore.js',
         'dispatcher/Dispatcher.js',
         'dispatcher/AppDispatcher.js',
-        'actions/ButtonActions.js',
-        'components/MyButtonController.js'
-        
+        'actions/ButtonActions.js'
     ];
 
     //遍历映射这些入口文件
